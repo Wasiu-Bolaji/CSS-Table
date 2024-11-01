@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Styling Table</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      table {
+        width: 800px;
+        font-size: 18px;
+        border-collapse: collapse;
+        margin: 50px auto;
+      }
+
+      th,
+      td {
+        padding: 16px 24px;
+        text-align: left;
+      }
+
+      thead tr {
+        background-color: #3535ef;
+        color: #fff;
+      }
+
+      thead th {
+        width: 25%;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #e9ecef;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Team</th>
+          <th>P</th>
+          <th>W</th>
+          <th>D</th>
+          <th>L</th>
+          <th>GD</th>
+          <th>Pts</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <th>Barcelona</th>
+          <td>11</td>
+          <td>10</td>
+          <td>0</td>
+          <td>1</td>
+          <td>27</td>
+          <td>30</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <th>R/Madrid</th>
+          <td>11</td>
+          <td>7</td>
+          <td>3</td>
+          <td>1</td>
+          <td>10</td>
+          <td>24</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <th>Villareal</th>
+          <td>11</td>
+          <td>6</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>21</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <th>Athletico</th>
+          <td>11</td>
+          <td>5</td>
+          <td>5</td>
+          <td>1</td>
+          <td>9</td>
+          <td>20</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <th>Athletic</th>
+          <td>11</td>
+          <td>5</td>
+          <td>3</td>
+          <td>3</td>
+          <td>6</td>
+          <td>18</td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <th>R/Betis</th>
+          <td>11</td>
+          <td>5</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>18</td>
+        </tr>
+
+        <tr>
+          <td>7</td>
+          <th>Mallorca</th>
+          <td>11</td>
+          <td>5</td>
+          <td>3</td>
+          <td>3</td>
+          <td>2</td>
+          <td>18</td>
+        </tr>
+
+        <tr>
+          <td>8</td>
+          <th>Osasuna</th>
+          <td>11</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>16</td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <th>Vallecano</th>
+          <td>11</td>
+          <td>4</td>
+          <td>4</td>
+          <td>3</td>
+          <td>2</td>
+          <td>16</td>
+        </tr>
+
+        <tr>
+          <td>10</td>
+          <th>Sevilla</th>
+          <td>11</td>
+          <td>4</td>
+          <td>3</td>
+          <td>4</td>
+          <td>-3</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
